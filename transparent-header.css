@@ -1,0 +1,62 @@
+selector.elementor-sticky--effects{
+   background-color: rgba(255,255,255,0.9) !important;
+   transition: background-color 0.5s ease!important;
+}
+
+selector #Logo_Hide {
+    display:none;
+}
+
+selector.elementor-sticky--effects #Logo_Show {
+    display:none;
+}
+
+selector.elementor-sticky--effects #Logo_Hide {
+    display:block;
+}
+
+selector.elementor-sticky--effects .elementor-icon svg {
+   fill:#333333!important;
+}
+
+selector.elementor-sticky--effects .elementor-icon svg:hover {
+   fill:#0047BB!important;
+}
+
+selector.elementor-sticky--effects .elementor-button-icon {
+   fill:#385B99!important;
+}
+
+selector.elementor-sticky--effects .elementor-button-icon:hover {
+   fill:#cba052!important;
+}
+
+selector.elementor-sticky--effects .menu-item a {
+   color:#385B99!important;
+}
+
+selector.elementor-sticky--effects .menu-item a:hover {
+   color:#cba052!important;
+}
+
+selector .elementor-nav-menu--dropdown .menu-item a:hover {
+    background-color:#2F3A4F!important;
+    color:#fff!important;
+}
+
+selector.elementor-sticky--effects a.elementor-sub-item:hover {
+    color:#fff!important;
+}
+
+selector.elementor-sticky--effects .elementor-nav-menu--dropdown .menu-item a:hover {
+    color:#fff!important;
+    background-color:#2F3A4F!important;
+}
+
+selector.elementor-sticky--effects .elementor-button-content-wrapper {
+   color:#1f1f1f!important;
+}
+
+selector.elementor-sticky--effects .elementor-menu-toggle i {
+   color:#1f1f1f!important;
+}
