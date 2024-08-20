@@ -21,6 +21,26 @@ selector.elementor-sticky--effects #Logo_Hide {
 
 /* Color Changes on Scroll */
 
+   /* SVG icons/logos */
+
+selector.elementor-sticky--effects .elementor-icon svg {
+   fill:#333333!important;
+}
+
+selector.elementor-sticky--effects .elementor-icon svg:hover {
+   fill:#0047BB!important;
+}
+
+   /* Regular icons */
+
+selector.elementor-sticky--effects .elementor-icon i {
+   color:#333333!important;
+}
+
+selector.elementor-sticky--effects .elementor-icon i:hover {
+   color:#0047BB!important;
+}
+
    /* Button Icons */
 
 selector.elementor-sticky--effects .elementor-button-icon {
@@ -31,12 +51,6 @@ selector.elementor-sticky--effects .elementor-button-icon {
 
 selector.elementor-sticky--effects .elementor-button-content-wrapper {
    color:#1f1f1f!important;
-}
-
-   /* SVG icons/logos */
-
-selector.elementor-sticky--effects .elementor-icon svg {
-   fill:#333333!important;
 }
 
    /* WordPress Menu Element */
