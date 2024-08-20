@@ -1,6 +1,6 @@
 /* Background Color Change on Scroll */
 
-selector.elementor-sticky--effects{
+selector.elementor-sticky--effects {
    background-color: rgba(255,255,255,0.9) !important;
    transition: background-color 0.5s ease!important;
 }
