@@ -63,7 +63,7 @@ selector.elementor-sticky--effects .menu-item a:hover {
    color:#cba052!important;
 }
 
-selector .elementor-nav-menu--dropdown .menu-item a:hover {
+selector.elementor-nav-menu--dropdown .menu-item a:hover {
     background-color:#2F3A4F!important;
     color:#fff!important;
 }
