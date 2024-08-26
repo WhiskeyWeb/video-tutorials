@@ -36,28 +36,16 @@ selector hr.wp-block-separator {
 
 /* List Spacing Fix */
 
-body ol {
-    margin-bottom:15px;
-}
-
+body ol,
 body ul {
-    margin-bottom:15px;
+    margin-bottom: 15px;
 }
 
-body ol > li > ol {
-    margin-bottom:0px;
-}
-
-body ul > li > ul {
-    margin-bottom:0px;
-}
-
-body ol > li > ol > li > ol {
-    margin-bottom:0px;
-}
-
-body ul > li > ul > li > ul {
-    margin-bottom:0px;
+body ol > li > ol,
+body ul > li > ul,
+body ol > li > ol ul,
+body ul > li > ul ol {
+    margin-bottom: 0;
 }
 
 /* blockquote */
