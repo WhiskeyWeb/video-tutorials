@@ -36,15 +36,15 @@ selector hr.wp-block-separator {
 
 /* List Spacing Fix */
 
-body ol,
-body ul {
+selector ol,
+selector ul {
     margin-bottom: 15px;
 }
 
-body ol > li > ol,
-body ul > li > ul,
-body ol > li > ol ul,
-body ul > li > ul ol {
+selector ol > li > ol,
+selector ul > li > ul,
+selector ol > li > ol ul,
+selector ul > li > ul ol {
     margin-bottom: 0;
 }
 
