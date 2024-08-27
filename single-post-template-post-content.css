@@ -27,7 +27,7 @@ selector h6 {
 /* Separator Line */
 
 selector hr.wp-block-separator {
-    color:var(--e-global-color-accent);
+    color:#0047BB;
     border-top-width:2px;
     margin-top:40px;
     margin-bottom:40px;
