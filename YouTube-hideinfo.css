@@ -1,0 +1,40 @@
+/* This goes in the HTML block - change both instances of 6Pyn2T8EmC8 to your video ID */
+
+<div class="yt-wrapper">
+	<div class="yt-frame-container">
+		<iframe src="https://www.youtube.com/embed/6Pyn2T8EmC8?autoplay=1&mute=1&loop=1&color=white&controls=0&modestbranding=1&playsinline=1&rel=0&enablejsapi=1&playlist=6Pyn2T8EmC8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	</div>
+</div>
+
+/* This goes in the Custom CSS area of the HTML block */
+
+@media screen and (min-width: 768px){
+	.yt-wrapper {
+		overflow: hidden;
+		max-width: 100%;
+	}
+
+	.yt-frame-container {
+    	position: relative;
+    	padding-bottom: 56.25%; 
+    	padding-top: 25px;
+		width: 300%;
+    	left: -100%;
+	}
+
+	.yt-frame-container iframe {
+    	position: absolute; 
+    	top: 0; 
+    	left: 0; 
+    	width: 100%; 
+		height: 100%;
+		pointer-events:none;
+	}
+}
+
+@media screen and (max-width: 767px){
+	.yt-frame-container iframe {
+		aspect-ratio: 16/9;
+        pointer-events:none;
+    }
+}
